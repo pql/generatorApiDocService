@@ -1,3 +1,6 @@
+import getValueByType from "./getValueByType.mjs";
+import upperFirstCase from "./upperFirstCase.mjs";
+
 function buildResAnyTyped(props) {
   const { url, name, apiName, params } = props;
   const typeCode = [];

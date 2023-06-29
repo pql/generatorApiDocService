@@ -1,5 +1,5 @@
 function findSchema(ref, schemas) {
-  const result = {
+  let result = {
     properties: {},
   };
   if (ref) {

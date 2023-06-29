@@ -1,3 +1,5 @@
+import isStringType from "./isStringType.mjs";
+
 function clearResponseData(data) {
   if (data === null) {
     return "number | string";
